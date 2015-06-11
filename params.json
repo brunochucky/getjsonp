@@ -1,1 +1,1 @@
-{"name":"Getjsonp","tagline":"getJSONP - jQuery Plugin","body":"### Usage\r\n$.getJSONP(url, success, error, callback)\r\n\r\n### Author URL\r\nwww.emancipa.com.br\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{"name":"Getjsonp","tagline":"getJSONP - Lightweight jQuery Plugin","body":"### Usage\r\n$.getJSONP(url, success, error, callback)\r\n\r\n### Author URL\r\nwww.emancipa.com.br\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
