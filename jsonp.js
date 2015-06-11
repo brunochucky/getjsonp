@@ -1,5 +1,5 @@
 /* getJSONP jQuery Plugin - www.emancipa.com.br */
-;(function ( $, window, document ) {
+(function ( $, window, document ) {
     plugin = {
         pluginName: 'getJSONP',
         setupError: function(e) {
