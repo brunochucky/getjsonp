@@ -3,12 +3,10 @@
     plugin = {
         pluginName: 'getJSONP',
         setupError: function(e) {
-               if(console && typeof( console.log ) == "function")
-                    console.log(e.statusText);                
+                    debug.error(e.statusText);                
         },
         setupSuccess: function(data) {
-               if(console && typeof( console.log ) == "function")
-                    console.log( JSON.stringify( data ) );                
+                    debug.log( JSON.stringify( data ) );                
         }
     };
     $[plugin.pluginName] = function (  url, success, error, callback ) {
